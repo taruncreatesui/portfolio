@@ -2024,6 +2024,10 @@ not all {
     width: 60px;
 }
 
+.PortImg{
+    height: 12vw;
+}
+
 .single_service > .icon {
     background-color: rgba(30, 187, 163, 0.08);
     border-radius: 50%;
@@ -2046,6 +2050,11 @@ not all {
 }
 
 .single_service .info > h2 {
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0 0 15px;
+}
+.single_service .info > a > h2 {
     font-size: 20px;
     font-weight: 500;
     margin: 0 0 15px;
@@ -2251,6 +2260,9 @@ not all {
         font-weight: 600;
     }
 }
+.skill_area>.container{
+    width: 60%;
+}
 
 @media only screen and (max-width: 450px) {
     .recent_work_nav > li > a {
@@ -2267,6 +2279,7 @@ not all {
     width: 90px !important;
     border: 5px solid rgba(30, 187, 163, 0.5);1
 	padding:15px;
+    align:left
 }
 
 .single_testimonial .info > h5 {
@@ -2299,6 +2312,9 @@ not all {
 
 .testimonial_carousel .owl-dots > button.active {
     background-color: #34E4EA;
+}
+.testimonial_carousel>.single_testimonial>.info>ul{
+    text-align: left;
 }
 
 @media only screen and (max-width: 991px) {
@@ -2689,7 +2705,7 @@ not all {
 }
 
 .contact_area {
-    position: relative;
+    /* position: relative; */
 }
 
 @media only screen and (max-width: 575px) {
@@ -2700,6 +2716,7 @@ not all {
 }
 .hahaha{
 display:contents!important;
+align-self: center !important;
 }
 }
 
@@ -3226,4 +3243,5 @@ html[dir="rtl"] .entry_post .entry_footer > .entry_meta .entry_user > img {
 .hahaha{
 display:flex;
 margin-right:20px;
+justify-content: space-around;
 }
